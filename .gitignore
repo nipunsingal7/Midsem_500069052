@@ -1,0 +1,3 @@
+# ignored files are added here
+*.cs
+!form.cs
