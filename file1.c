@@ -11,12 +11,12 @@ int main()
     scanf("%d%d", &num1, &num2);
 
 
-    
+   add=num1+num2; 
     sub = num1 - num2;
     mult=num1*num2;
     
 
-    
+    printf("add=%d\n",add);
     printf("DIFFERENCE = %d\n", sub);
     printf("multy=%d",mult);
     
