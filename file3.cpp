@@ -3,17 +3,17 @@ using namespace std;
 
 int main()
 {
-    int e = 15, d = 25, temp;
+    int a = 10, b = 5, temp;
 
     cout << "Before swapping." << endl;
-    cout << "e = " << e << ", d = " << d << endl;
+    cout << "a = " << a << ", b = " << b << endl;
 
-    temp = e;
-    e = d;
-    d = temp;
+    temp = a;
+    a = b;
+    b = temp;
 
     cout << "\nAfter swapping." << endl;
-    cout << "e = " << e << ", d = " << d << endl;
+    cout << "a = " << a << ", b = " << b << endl;
 
     return 0;
 }
